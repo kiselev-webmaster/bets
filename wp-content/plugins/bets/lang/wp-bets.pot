@@ -1,0 +1,158 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ставки\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-21 16:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://kiselev-webmaster.ru/"
+msgstr ""
+
+#: bets.php:93
+msgid "Parent статус"
+msgstr ""
+
+#: bets.php:94
+msgid "Parent статус:"
+msgstr ""
+
+#: bets.php:71
+msgid "Parent типа"
+msgstr ""
+
+#: bets.php:72
+msgid "Parent типа:"
+msgstr ""
+
+#: bets.php:29
+msgid "В корзине нет ставок."
+msgstr ""
+
+#: bets.php:25
+msgid "Все ставки"
+msgstr ""
+
+#: bets.php:91
+msgid "Все статусы"
+msgstr ""
+
+#: bets.php:69
+msgid "Все типы"
+msgstr ""
+
+#: bets.php:22
+msgid "Добавить новую ставку"
+msgstr ""
+
+#: bets.php:75
+msgid "Добавить новый"
+msgstr ""
+
+#: bets.php:21
+msgid "Добавить ставку"
+msgstr ""
+
+#: bets.php:97 bets.php:98
+msgid "Добавить статус"
+msgstr ""
+
+#: bets.php:76
+msgid "Добавить тип"
+msgstr ""
+
+#: bets.php:27
+msgid "Искать ставки"
+msgstr ""
+
+#: bets.php:120
+msgid "Каппер"
+msgstr ""
+
+#. Author of the plugin
+msgid "Киселев Денис"
+msgstr ""
+
+#: bets.php:121
+msgid "Модератор"
+msgstr ""
+
+#: bets.php:24
+msgid "Новая ставка"
+msgstr ""
+
+#: bets.php:90
+msgid "Поиск статуса ставки"
+msgstr ""
+
+#: bets.php:68
+msgid "Поиск типа ставки"
+msgstr ""
+
+#: bets.php:26
+msgid "Просмотр ставку на сайте"
+msgstr ""
+
+#: bets.php:70 bets.php:92
+msgid "Просмотреть"
+msgstr ""
+
+#: bets.php:23
+msgid "Редактировать ставку"
+msgstr ""
+
+#: bets.php:95
+msgid "Редактировать статус"
+msgstr ""
+
+#: bets.php:73
+msgid "Редактировать тип"
+msgstr ""
+
+#: bets.php:74 bets.php:96
+msgid "Сохранить"
+msgstr ""
+
+#. Name of the plugin
+#: bets.php:19 bets.php:30
+msgid "Ставки"
+msgstr ""
+
+#: bets.php:28
+msgid "Ставки не найдено."
+msgstr ""
+
+#: bets.php:20
+msgid "Ставку"
+msgstr ""
+
+#: bets.php:88 bets.php:89
+msgid "Статус ставки"
+msgstr ""
+
+#: bets.php:99
+msgid "Статус ставок"
+msgstr ""
+
+#. Description of the plugin
+msgid "Тестовое задание"
+msgstr ""
+
+#: bets.php:66 bets.php:67
+msgid "Тип ставки"
+msgstr ""
+
+#: bets.php:77
+msgid "Типы ставок"
+msgstr ""

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&display=swap');
+body {
+  font-family: 'Anonymous Pro', monospace;
+  min-height: 100vh;
+}
+/*
+ #page{
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ }
+ .flex{
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ justify-content: center;
+ }
+ */
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+header {
+  padding: 20px 0;
+}
+header .site-title span {
+  background: #003459;
+  padding: 10px 5px;
+  font-size: 22px;
+  color: #fff;
+  display: inline-block;
+}
+.page-title {
+  font-size: 22px;
+  color: #003459;
+  margin-bottom: 15px;
+}
+.text-center {
+  text-align: center;
+}
+.bets-wrap {
+  margin-bottom: 15px;
+}
+.bets-wrap .wrap-header {
+  padding: 10px 0;
+  background: #f1f1f1;
+}
+.bets-wrap .bets-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.bets-wrap .bets-item a {
+  color: #003459;
+}
+.btn {
+  font-size: 16px;
+  color: #fff;
+  background: #003459;
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.add-bets-wrap form input[type='text'], .add-bets-wrap form select, .add-bets-wrap form textarea {
+  padding: 10px;
+  background: #f1f1f1;
+  border: none;
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.add-bets-wrap form select {
+  border-radius: 0 !important;
+  padding: 10px;
+  height: 37px;
+}
+.form-add-meta form {
+  display: flex;
+}
+.form-add-meta input[type='number'] {
+  margin-right: 10px;
+  padding: 10px;
+  background: #f1f1f1;
+  border: none;
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.msg-ok, .disabled {
+  display: none;
+}
+.msg-ok.active, .disabled.active {
+  display: block;
+}
