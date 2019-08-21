@@ -1,9 +1,5 @@
-<?php
-if ( ! is_active_sidebar( 'sidebar-right' ) ) {
-	return;
-}
-?>
-
-<aside id="secondary" class="widget-area">
-	<?php //dynamic_sidebar( 'sidebar-right' ); ?>
-</aside><!-- #secondary -->
+<?php if ( is_active_sidebar( 'true_side' ) ) : ?>
+	<div id="true-side" class="sidebar">
+		<?php dynamic_sidebar( 'true_side' ); ?>
+	</div>
+<?php endif; ?>

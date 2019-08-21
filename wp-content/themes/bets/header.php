@@ -16,6 +16,6 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site container">
 	<header>
-		<a href="<?php echo home_url(); ?>" class="site-title"><span><?php _e( 'Тестовое задание', 'wp-bets' ) ?></span></a>
-		<div class="autchor"><?php _e( 'Киселев Денис', 'wp-bets' ) ?></div>
+		<a href="<?php echo home_url(); ?>" class="site-title"><span><?php _e( 'Тестовое задание', 'wp-bets' ); ?></span></a>
+		<div class="autchor"><?php _e( 'Киселев Денис', 'wp-bets' ); ?></div>
 	</header>
