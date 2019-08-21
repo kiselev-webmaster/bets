@@ -104,8 +104,8 @@ function true_register_wp_sidebars() {
  	register_sidebar(
 		array(
 			'id' => 'true_side',
-			'name' => 'Боковая колонка',
-			'description' => 'Перетащите сюда виджеты, чтобы добавить их в сайдбар.', // описание
+			'name' => __('Боковая колонка', 'wp-bets'),
+			'description' => __('Перетащите сюда виджеты, чтобы добавить их в сайдбар.', 'wp-bets'), // описание
 			'before_widget' => '<div id="%1$s" class="side widget %2$s">', // по умолчанию виджеты выводятся <li>-списком
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">', // по умолчанию заголовки виджетов в <h2>
@@ -115,8 +115,8 @@ function true_register_wp_sidebars() {
  	register_sidebar(
 		array(
 			'id' => 'true_foot',
-			'name' => 'Футер',
-			'description' => 'Перетащите сюда виджеты, чтобы добавить их в футер.',
+			'name' => __('Футер', 'wp-bets'),
+			'description' => __('Перетащите сюда виджеты, чтобы добавить их в футер.', 'wp-bets'),
 			'before_widget' => '<div id="%1$s" class="foot widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
